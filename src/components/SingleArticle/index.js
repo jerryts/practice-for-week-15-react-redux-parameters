@@ -15,7 +15,7 @@ const SingleArticle = () => {
   return (
     <div className="singleArticle">
       <h1>{title}</h1>
-      <img src={`${imageUrl}`} alt={`${title}`} />
+      <img src={imageUrl} alt={title} />
       <p>{body}</p>
     </div>
   );
